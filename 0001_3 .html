@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+       span { display: inline-block;
+             width :100px; height: 25px;
+             border-color: red; 
+             border-style: solid;
+             border-width : 5px; /*테두리 영역의 크기 */
+             padding : 20px; /*테두리 기준 안쪽 여뱍*/
+             margin:10px; /*바깥ㅈ=쪽 여백을 의미한다.*/
+
+            }
+     .box{
+         height : 50px;
+         width: 50px; /*width 는 원래 꽉 차 있다는 의미다 나머지는 
+          여백이 생기게 된다. margin 이 생기게 된다는 뜻이다*/
+         border: 5px solid teal;
+         padding: 30px;
+         margin : 20px;  /*margin 을 줄수 있지만 블록을 유지해야되서 작아진다.
+             */
+             
+
+
+     }
+   </style>>
+</head>
+<body>
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
+    <!-- inline 요소는 크기를 지정할수 없다는 특징을 가지고 잇디.--> 
+    <hr>
+    <div class="box"></div>  
+    <!--블록 래밸 요소 이다.-->
+
+</body>
+</html>
